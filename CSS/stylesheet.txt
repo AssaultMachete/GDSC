@@ -1,0 +1,19 @@
+h1{
+    color: aqua;
+}
+
+
+<div class="desciription_1">
+        <p>
+            I'm going to be one of the greatest full-stack devs one day Inshallah
+        </p>
+    </div>
+    <div class="me">
+        <figure>
+            <figcaption style="position: relative; left: 110px; right: 20px;" class="image_caption">Me, yes that's me</figcaption>
+            <img src="../Media/Screenshot_6.png">
+        </figure>
+    </div>
+    <div>
+        
+    </div>

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'FiraCode';
+    src: url(../Fonts/FiraCode-Bold.ttf) format('truetype');
+    }
+@font-face {
+    font-family: 'Cairo';
+    src: url(../Fonts/Cairo-Light.ttf);
+}
+nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+}
+.section1 {
+        font-family: 'FiraCode';
+        text-align: left;
+        background: crimson;
+        padding: 8px 9px;
+        border-bottom-right-radius: 18px;
+        position: relative; left: -3%;
+} 
+.section1 ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px 25px;
+        position: relative;
+}
+.section1 ul li{
+        color: white;
+        text-decoration: none;
+}
+.me {
+    border: 5px;
+    border-color: blueviolet;
+    border-radius: 2px;
+    font-family: 'Cairo';
+    font-weight: bold;
+}
+.desciription_1 {
+    font-family: 'Cairo';
+    font-size: medium;
+    font-weight: 700;
+}
+.h1 {
+    font-family: 'Cairo';
+    font-weight: bolder;
+    color: darkorchid;
+}
+.pregraph {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: medium;
+}
+.Project_1 {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+}
+.Project_2 {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+}
+.Project_3 {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+}
+.cform {
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: medium;
+}
+.contact
+{
+    font-family: 'FiraCode';
+    font-weight: bold;
+    color: chocolate;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+.left-sidebar {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: crimson;
+}
+.row {
+    padding: 0% 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 5%;
+}
+.left-col {
+    flex-basis: 40%;
+}
+.right-col {
+    flex-basis: 55%;
+}
+.left-col img {
+    width: 80%;
+    position: relative; left: 160%;
+    cursor: pointer;
+    border-radius: 30px;
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+.left-col img:hover {
+    filter: grayscale(1);
+}
+.right-col h1 {
+    font-size:  55px;
+    font-size: 800;
+    font-family: 'Cairo';
+    color: white;
+    position: relative; right: 100%;
+}
+.right-col p{
+    color: #777;
+    margin: 20px 0 70px;
+    font-family: 'FiraCode';
+    position: relative; right: 100%;
+}
+.right-col1 p{
+    color: #777;
+    margin: 20px 0 70px;
+    font-family: 'FiraCode';
+    position: fixed; left: 1%; top: 120px;
+}
+.projects {
+    background-image: url(../Media/1270258.jpg);
+}
+.mainsection {
+    background-color: black;
+}
+.aboutsection {
+    background-color: black;
+}
+.icons {
+    position: relative; left: 30px; top: -50px;
+    word-spacing: 150px;
+}
+footer {
+    font-family: 'Cairo';
+    font-weight: 800;
+    color: white;
+    position: relative; top: 150px
+}
+.song {
+    position: fixed; top: 175px
+}
