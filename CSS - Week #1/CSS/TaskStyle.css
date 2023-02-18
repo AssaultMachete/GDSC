@@ -61,6 +61,10 @@ h2 {
     text-align: center;
     width: 210px; height: 75px;
     padding-top: 50px;
+    outline: 6px;
+    outline-offset: 10px;
+    outline-style: dotted dashed groove solid;
+    outline-color: royalblue seagreen saddlebrown greenyellow;
     border: 5px;
     border-style: dashed dotted solid groove;
     border-color: black firebrick gray green;
@@ -110,7 +114,7 @@ h2 {
     color: white;
 }
 .page3 {
-    border: 3px dashed black;
+    border: 3px dashed slateblue;
     background-color: white;
     padding: 20px;
 }
