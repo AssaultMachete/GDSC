@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Fira Code Bold';
+    src: url(../Fonts/FiraCode-Bold.ttf);
+}
+@font-face {
+    font-family: 'Fira Code Regular';
+    src: url(../Fonts/FiraCode-Medium.ttf);
+}
+body {
+    background-image: url(../Media/frontend_text_2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-family: 'Fira Code Bold';
+}
+.composition {
+    margin: auto;
+    display: block;
+}
+.page2 {
+    padding: 35px;
+    border: 5px dashed orange;
+}
+h2 {
+    font-family: 'Fira Code Bold';
+    text-align: center;
+}
+.page2 p {
+    font-family: 'Fira Code Regular';
+    word-spacing: 2px;
+    text-align-last: center;
+}
+.page2 {
+    background-color: white;
+}
+.page2 input {
+    display: block;
+    color: white;
+    background-color: rgba(37, 2, 94, 0.842);
+    height: 75px; width: 125px;
+    background-size: 20%;
+    border: 3px black;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: auto;
+    font-family: 'Fira Code Regular';
+}
+.borders {
+    border: 3px dashed  black;
+    background-color: white;
+    width:30%;
+    height: 250px;
+    margin: auto;
+}
+.borders p {
+    font-family: 'Fira Code Bold';
+    font-size: 28px;
+    text-align: center;
+    width: 210px; height: 75px;
+    padding-top: 50px;
+    border: 5px;
+    border-style: dashed dotted solid groove;
+    border-color: black firebrick gray green;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 10%;
+    background-color: rgb(255, 199, 120);
+    margin: auto;
+}
+.part1 {
+    font-family: 'Fira Code Regular';
+}
+.shadows {
+    font-family: 'Fira Code Bold';
+    font-size: 75px;
+    text-align: center;
+    text-shadow: 4px 2px red, -5px 3px blue;
+    
+}
+.part2 {
+    font-family: 'Fira Code Regular';
+}
+.scroll {
+    font-family: 'Fira Code Regular';
+    height: 150px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: scroll;
+    background-color: rgb(52, 7, 95);
+    color: white;
+}
+.part3 {
+    font-family: 'Fira Code Regular';
+}
+.clip {
+    font-family: 'Fira Code Regular';
+    height: fit-content;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-image: linear-gradient(45deg, blue, purple);
+    color: white;
+}
+.page3 {
+    border: 3px dashed black;
+    background-color: white;
+    padding: 20px;
+}
