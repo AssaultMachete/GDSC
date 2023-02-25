@@ -32,16 +32,18 @@
 }
 .teambuilder {
     background-color: white;
-    box-shadow: 3px 3px 25px 2px black;
+    box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
     border-top: 5px red solid;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     align-content: center;
+    order: 1;
 }
 .teambuilder h2 {
     font-family: 'Poppins Bold';
+    color: red;
 }
 .teambuilder p {
     font-family: 'Poppins SemiBold';
@@ -52,15 +54,17 @@
 }
 .calculator {
     background-color: white;
-    box-shadow: 3px 3px 25px 2px black;
+    box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
     border-top: 5px blue solid;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
+    order: 3;
 }
 .calculator h2 {
     font-family: 'Poppins Bold';
+    color: blue;
 }
 .calculator p {
     font-family: 'Poppins SemiBold';
@@ -71,15 +75,17 @@
 }
 .supervaisor {
     background-color: white;
-    box-shadow: 3px 3px 25px 2px black;
+    box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
     border-top: 5px gold solid;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
+    order: 2;
 }
 .supervaisor h2 {
     font-family: 'Poppins Bold';
+    color: gold;
 }
 .supervaisor p {
     font-family: 'Poppins SemiBold';
@@ -90,15 +96,18 @@
 }
 .karma {
     background-color: white;
-    box-shadow: 3px 3px 25px 2px black;
+    box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
     border-top: 5px cyan solid;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
+    order: 4;
 }
 .karma h2 {
     font-family: 'Poppins Bold';
+    color: cyan;
+    
 }
 .karma p {
     font-family: 'Poppins SemiBold';
