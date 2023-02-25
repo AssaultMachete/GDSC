@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(../Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(../Fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Poppins Thin';
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+.introduction {
+    line-height: 25px;
+}
+.title1 {
+    font-family: 'Poppins Thin';
+    text-align: center;
+}
+.title2 {
+    font-family: 'Poppins Bold';
+    text-align: center;
+}
+.introduction p {
+    font-family: 'Poppins SemiBold';
+    text-align: center;
+    font-size: 16px;
+}
+.teambuilder {
+    background-color: white;
+    box-shadow: 3px 3px 25px 2px black;
+    width: 500px;
+    height: 250px;
+    border-top: 5px red solid;
+    border-radius: 10px;
+    padding: 20px;
+    align-content: center;
+}
+.teambuilder h2 {
+    font-family: 'Poppins Bold';
+}
+.teambuilder p {
+    font-family: 'Poppins SemiBold';
+    word-wrap: break-word;
+}
+.teambuilder img {
+    position: relative; left: 85%; top: 20%;
+}
+.calculator {
+    background-color: white;
+    box-shadow: 3px 3px 25px 2px black;
+    width: 500px;
+    height: 250px;
+    border-top: 5px blue solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.calculator h2 {
+    font-family: 'Poppins Bold';
+}
+.calculator p {
+    font-family: 'Poppins SemiBold';
+    word-wrap: break-word;
+}
+.calculator img {
+    position: relative; left: 85%; top: 20%;
+}
+.supervaisor {
+    background-color: white;
+    box-shadow: 3px 3px 25px 2px black;
+    width: 500px;
+    height: 250px;
+    border-top: 5px gold solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.supervaisor h2 {
+    font-family: 'Poppins Bold';
+}
+.supervaisor p {
+    font-family: 'Poppins SemiBold';
+    word-wrap: break-word;
+}
+.supervaisor img {
+    position: relative; left: 85%; top: 20%;
+}
+.karma {
+    background-color: white;
+    box-shadow: 3px 3px 25px 2px black;
+    width: 500px;
+    height: 250px;
+    border-top: 5px cyan solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.karma h2 {
+    font-family: 'Poppins Bold';
+}
+.karma p {
+    font-family: 'Poppins SemiBold';
+    word-wrap: break-word;
+}
+.karma img {
+    position: relative; left: 85%; top: 20%;
+}
+.flex-box {
+    width: auto;
+    min-height: 850px;
+    max-height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: row wrap;
+    gap: 50px;
+}
