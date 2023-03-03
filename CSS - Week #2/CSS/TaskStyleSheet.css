@@ -35,7 +35,7 @@
     box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
-    border-top: 5px red solid;
+    border-top: 5px hsl(0, 78%, 62%) solid;
     border-radius: 10px;
     padding: 25px;
     align-content: center;
@@ -43,7 +43,7 @@
 }
 .teambuilder h2 {
     font-family: 'Poppins Bold';
-    color: red;
+    color: hsl(0, 78%, 62%);
 }
 .teambuilder p {
     font-family: 'Poppins SemiBold';
@@ -57,14 +57,13 @@
     box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
-    border-top: 5px blue solid;
+    border-top: 5px hsl(212, 86%, 64%) solid;
     border-radius: 10px;
     padding: 25px;
-    order: 3;
 }
 .calculator h2 {
     font-family: 'Poppins Bold';
-    color: blue;
+    color: hsl(212, 86%, 64%);
 }
 .calculator p {
     font-family: 'Poppins SemiBold';
@@ -78,14 +77,14 @@
     box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
-    border-top: 5px gold solid;
+    border-top: 5px hsl(34, 97%, 64%) solid;
     border-radius: 10px;
     padding: 25px;
     order: 2;
 }
 .supervaisor h2 {
     font-family: 'Poppins Bold';
-    color: gold;
+    color: hsl(34, 97%, 64%);
 }
 .supervaisor p {
     font-family: 'Poppins SemiBold';
@@ -99,14 +98,13 @@
     box-shadow: 3px 3px 25px 2px gray;
     width: 500px;
     height: 250px;
-    border-top: 5px cyan solid;
+    border-top: 5px hsl(180, 62%, 55%) solid;
     border-radius: 10px;
     padding: 25px;
-    order: 4;
 }
 .karma h2 {
     font-family: 'Poppins Bold';
-    color: cyan;
+    color: hsl(180, 62%, 55%);
     
 }
 .karma p {
@@ -123,7 +121,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-flow: row wrap;
     gap: 50px;
+}
+.middle-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+    gap: 25px;
+
 }
