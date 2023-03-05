@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'LeagueSpartan Regular';
+    src: url(../Fonts/LeagueSpartan-Regular.ttf);
+}
+@font-face {
+    font-family: 'LeagueSpartan Bold';
+    src: url(../Fonts/LeagueSpartan-Bold.ttf);
+}
+
+body {
+    background-image: url(../Media/bg-pattern-bottom-desktop.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Title-section h1 {
+font-family: 'LeagueSpartan Bold';
+color: hsl(300, 43%, 22%);
+}
+
+.Title-section p {
+    font-family: 'LeagueSpartan Regular';
+    font-weight: 400;
+    color: hsl(300, 43%, 22%);
+    fill-opacity: 20%;
+}
+.Title-section {
+    font-size: larger;
+    padding: 30px;
+}
+
+.item-1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    width: 273px;
+    height: 183px;
+    padding: 30px;
+    line-height: 18px;
+}
+
+.item-2 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    width: 273px;
+    height: 183px;
+    padding: 30px;
+    line-height: 18px;
+}
+
+.item-3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    width: 273px;
+    height: 183px;
+    padding: 30px;
+    line-height: 18px;
+}
+
+.buyer {
+    font-family: 'LeagueSpartan Bold';
+    color: white;
+}
+
+.verified {
+    font-family: 'LeagueSpartan Regular';
+    font-weight: 300;
+    color: hsl(333, 80%, 67%);
+}
+
+.review {
+    font-family: 'LeagueSpartan Regular';
+    font-weight: 300;
+    color: white;
+}
