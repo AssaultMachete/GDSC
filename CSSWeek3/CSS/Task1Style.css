@@ -26,6 +26,8 @@ color: hsl(300, 43%, 22%);
     fill-opacity: 20%;
 }
 .Title-section {
+    display: flex;
+    flex-direction: column;
     font-size: larger;
     padding: 30px;
 }
@@ -33,16 +35,17 @@ color: hsl(300, 43%, 22%);
 .item-1 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 5%;
-    width: 273px;
+    width: 350px;
     height: 183px;
     padding: 30px;
     line-height: 18px;
+    position: relative; bottom: 10px;
 }
 
 .item-2 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 5%;
-    width: 273px;
+    width: 350px;
     height: 183px;
     padding: 30px;
     line-height: 18px;
@@ -51,10 +54,11 @@ color: hsl(300, 43%, 22%);
 .item-3 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 5%;
-    width: 273px;
+    width: 350px;
     height: 183px;
     padding: 30px;
     line-height: 18px;
+    position: relative; bottom: -10px;
 }
 
 .buyer {
@@ -72,4 +76,17 @@ color: hsl(300, 43%, 22%);
     font-family: 'LeagueSpartan Regular';
     font-weight: 300;
     color: white;
+}
+.Bottom-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+img {
+    float: left;
+    padding-right: 20px;
+    border-radius: 100%;
 }
