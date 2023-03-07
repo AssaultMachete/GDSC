@@ -26,6 +26,7 @@ color: hsl(300, 43%, 22%);
     fill-opacity: 20%;
 }
 .Title-section {
+    width: 325px;
     display: flex;
     flex-direction: column;
     font-size: larger;
@@ -89,4 +90,71 @@ img {
     float: left;
     padding-right: 20px;
     border-radius: 100%;
+}
+
+.first-review {
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 400px;   
+    height: fit-content;
+    padding: 15px;
+}
+
+.first-review p {
+    font-family: 'LeagueSpartan Bold'; 
+    display: inline;
+}
+
+.second-review {
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 400px;
+    height: fit-content;
+    padding: 15px;
+    position: relative; left: 25px;
+
+}
+
+.second-review p {
+    font-family: 'LeagueSpartan Bold';
+    display: inline;
+}
+
+.third-review {
+    background-color: lightpink;
+    border-radius: 20px;
+    width: 400px;
+    height: fit-content;
+    padding: 15px;
+    position: relative; left: 45px;
+}
+
+.third-review p {
+    font-family: 'LeagueSpartan Bold';
+    display: inline;
+}
+
+.Reviews-sections {
+    color: hsl(300, 43%, 22%);
+    margin-top: 80px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.two-items {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 250px;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-top: 40px;
+    height: 250px;
+}
+span {
+    padding-left: 10px;
+    padding-right: 10px;
 }
