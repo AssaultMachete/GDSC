@@ -1,0 +1,48 @@
+:root{
+	--bg-body: aliceblue; /* to bg  body & lines in ball & color star */
+	--bg-ball: darkblue;
+
+}
+body {
+    background-color: black;
+}
+
+.star {
+    position: absolute;
+    top: 341px;
+    left: 750px;
+    bottom: 0;
+}
+.circle {
+    margin: 300px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--bg-ball);
+}
+.first-border {
+    margin: 300px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 680px
+}
+.second-border {
+    margin: 300px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    position: absolute;
+    top: -50px;
+    bottom: 0;
+    left: 650px;
+}
