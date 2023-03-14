@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Barlow Medium";
+  src: url(../Fonts/BarlowSemiCondensed-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Barlow SemiBold";
+  src: url(../Fonts/BarlowSemiCondensed-SemiBold.ttf);
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-size: 30px;
+}
+.grid-container {
+  height: 100vh;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  scale: 0.75;
+}
+.item-1 {
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item-2 {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+}
+
+.item-3 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.item-4 {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+}
+
+.item-5 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.user {
+  font-family: "Barlow SemiBold";
+  color: hsl(0, 0%, 100%);
+}
+
+.intro {
+  font-family: "Barlow Medium";
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.para {
+  font-family: "Barlow Medium";
+  opacity: 50%;
+  color: hsl(0, 0%, 100%);
+}
+
+img {
+  border-radius: 250px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 18px;
+  scale: 1.12;
+}
+
+.item-3 > h2 {
+  font-family: "Barlow SemiBold";
+  color: hsl(217, 19%, 35%);
+}
+
+.item-3 > .intro {
+  font-family: "Barlow SemiBold";
+  color: hsl(217, 19%, 35%);
+}
+
+.item-3 > .para {
+  font-family: "Barlow Medium";
+  color: hsl(217, 19%, 35%);
+  opacity: 70%;
+}
+
+.item-5 > h2 {
+  font-family: "Barlow SemiBold";
+  color: hsl(217, 19%, 35%);
+}
+
+.item-5 > .intro {
+  font-family: "Barlow SemiBold";
+  color: hsl(217, 19%, 35%);
+}
+
+.item-5 > .para {
+  font-family: "Barlow Medium";
+  color: hsl(217, 19%, 35%);
+  opacity: 70%;
+}

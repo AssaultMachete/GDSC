@@ -32,7 +32,6 @@ color: hsl(300, 43%, 22%);
     font-size: larger;
     padding: 30px;
 }
-
 .item-1 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 5%;
@@ -61,7 +60,6 @@ color: hsl(300, 43%, 22%);
     line-height: 18px;
     position: relative; bottom: -10px;
 }
-
 .buyer {
     font-family: 'LeagueSpartan Bold';
     color: white;
@@ -79,7 +77,7 @@ color: hsl(300, 43%, 22%);
     color: white;
 }
 .Bottom-section {
-    margin-top: 250px;
+    margin-top: 125px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -91,9 +89,8 @@ img {
     padding-right: 20px;
     border-radius: 100%;
 }
-
 .first-review {
-    background-color: rgb(255, 223, 227);
+    background-color: hsl(300, 24%, 96%);
     border-radius: 20px;
     width: 400px;   
     height: fit-content;
@@ -106,7 +103,7 @@ img {
 }
 
 .second-review {
-    background-color: hsl(333, 80%, 67%);
+    background-color: hsl(300, 24%, 96%);
     border-radius: 20px;
     width: 400px;
     height: fit-content;
@@ -121,7 +118,7 @@ img {
 }
 
 .third-review {
-    background-color: rgb(255, 223, 227);
+    background-color: hsl(300, 24%, 96%);
     border-radius: 20px;
     width: 400px;
     height: fit-content;
@@ -144,32 +141,7 @@ img {
     gap: 25px;
 }
 .two-items {
-    display: flex;
-    margin-left: 650px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-}
-
-span {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-@media (max-width:800px){
-    .two-items {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .Bottom-section {
-        margin-top: 25%;
-        height: 50%;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        align-items: flex-end;
-    }
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
