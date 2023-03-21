@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Barlow Medium";
+  src: url(../Fonts/BarlowSemiCondensed-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Barlow SemiBold";
+  src: url(../Fonts/BarlowSemiCondensed-SemiBold.ttf);
+}
+* {
+  font-size: 26px;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+.grid-container {
+  display: grid;
+  height: auto;
+  width: auto;
+  margin: 200px 75px 75px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+}
+.card-1 {
+  color: white;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  padding: 30px;
+  grid-column: 1/3;
+  box-shadow: -2px 5px 10px #888888;
+}
+.card-2 {
+  color: white;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: -2px 5px 10px #888888;
+}
+.card-3 {
+  color: hsl(219, 29%, 14%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 30px;
+  grid-column: 4;
+  grid-row: 1/3;
+  box-shadow: -2px 5px 10px #888888;
+}
+.card-4 {
+  color: hsl(219, 29%, 14%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 30px;
+  grid-row: 2;
+  box-shadow: -2px 5px 10px #888888;
+}
+.card-5 {
+  color: white;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  padding: 30px;
+  grid-row: 2;
+  grid-column: 2/4;
+  box-shadow: -2px 5px 10px #888888;
+}
+a {
+  opacity: 50%;
+}
+h2 {
+  font-family: "Barlow SemiBold";
+}
+.intro {
+  font-family: "Barlow Medium";
+}
+.para {
+  font-family: "Barlow Medium";
+  font-size: 20px;
+  opacity: 50%;
+}
+img {
+  float: left;
+  border-radius: 250px;
+  margin-right: 20px;
+  margin-top: 22px;
+  border: 3px rgba(77, 0, 128, 0.562) solid;
+}
+@media screen and (min-width: 250px) and (max-width: 480px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
