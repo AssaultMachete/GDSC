@@ -37,7 +37,7 @@ main {
   height: 100vh;
   background-color: var(--bg-primary);
   position: fixed;
-  transition: width 300ms ease;
+  transition: width 300ms ease-in-out;
 }
 
 .navbar-nav {
@@ -90,4 +90,74 @@ main {
 
 .navbar:hover .link-text {
   display: block;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+.logo svg {
+  transition: var(--transition-speed);
+  transform: rotate(0deg);
+}
+.navbar:hover .logo svg {
+  transform: rotate(-540deg);
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/* Laptops OR Desktop Screen */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
+
+  .navbar:hover .logo svg {
+    margin-left: 1rem;
+  }
+
+  .navbar:hover .logo-text {
+    left: 0px;
+  }
 }
