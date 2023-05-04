@@ -203,7 +203,7 @@ main {
   }
 
   .logo {
-    display: none;
+    display: contents;
   }
 
   .navbar-nav {

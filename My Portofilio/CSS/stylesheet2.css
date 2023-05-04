@@ -189,7 +189,7 @@ img {
   }
 
   .logo {
-    display: none;
+    display: contents;
   }
 
   .navbar-nav {
@@ -202,6 +202,41 @@ img {
 
   main {
     margin: 0;
+  }
+
+  .main-flex {
+    border-radius: 20px;
+    border: 2px dashed #fffbeb;
+  }
+
+  .left-flex {
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    word-spacing: -4px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .right-flex {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    word-spacing: -4px;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-family: "Retro Computer";
+  }
+
+  img {
+    height: 64px;
+    width: 64px;
   }
 }
 
