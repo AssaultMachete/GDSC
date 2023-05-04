@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Retro Computer";
+  src: url(../Fonts/retro_computer_personal_use.ttf);
+}
+@font-face {
+  font-family: "Flexi IBM";
+  src: url(../Fonts/Flexi_IBM_VGA_True.ttf);
+}
+@font-face {
+  font-family: "Opensans Bold";
+  src: url(../Fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Opensans SemiBold";
+  src: url(../Fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Opensans Regular";
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+/* The colors of websites + fonts */
+:root {
+  font-size: 16px;
+  font-family: "Flexi IBM";
+  --bg-primary: #540d6e;
+  --bg-secondary: #000000;
+  --bg-third: #ff2975;
+  --bg-fourth: #28282b;
+  --bg-fifth: #2de2e6;
+  --txt-primay: #fffbeb;
+  --txt-secondary: #e8a0bf;
+  --transition-speed: 450ms;
+}
+
+/* Navbar Creation */
+body {
+  color: white;
+  background-color: var(--bg-secondary);
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+.navbar {
+  border-right: 1px dashed #fffbeb;
+  position: fixed;
+  background-color: var(--bg-secondary);
+  transition: width 600ms ease-in-out;
+  overflow: hidden;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--txt-primay);
+  text-decoration: none;
+  filter: grayscale(0%) opacity(1);
+  transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+  filter: grayscale(100%) opacity(0.7);
+  background: var(--bg-secondary);
+  color: var(--txt-secondary);
+}
+
+.link-text {
+  display: none;
+}
+
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--txt-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.1rem;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+
+.logo svg {
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.logo-text {
+  display: inline;
+  position: absolute;
+  left: -999px;
+  transition: var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+  transform: rotate(90deg);
+}
+
+/* The <main> Content */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.5rem;
+  width: auto;
+  height: fit-content;
+}
+.whoisme {
+  width: 1000px;
+  padding: 20px;
+  height: fit-content;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px dashed #fffbeb;
+}
+.whoisme h1 {
+  font-family: "Retro Computer";
+  font-size: 25px;
+  color: var(--bg-third);
+}
+.whoisme p {
+  font-size: 22px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+  }
+  .whoisme {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed #fffbeb;
+  }
+  .whoisme h1 {
+    font-family: "Retro Computer";
+    font-size: 25px;
+    color: var(--bg-third);
+  }
+  .whoisme p {
+    font-size: 22px;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  iframe {
+    width: 200px;
+    height: 300px;
+  }
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
+
+  .navbar:hover .logo-text {
+    left: 0px;
+  }
+}
