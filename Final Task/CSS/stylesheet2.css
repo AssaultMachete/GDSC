@@ -1,3 +1,4 @@
+/* Custom Fonts */
 @font-face {
   font-family: "Retro Computer";
   src: url(../Fonts/retro_computer_personal_use.ttf);
@@ -18,7 +19,7 @@
   font-family: "Opensans Regular";
   src: url(../Fonts/OpenSans-Regular.ttf);
 }
-
+/* Navbar Cascading */
 :root {
   font-size: 16px;
   font-family: "Opensans Regular";
@@ -132,6 +133,7 @@ main {
   transform: rotate(-180deg);
 }
 
+/* Main content cascading */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -144,6 +146,7 @@ main {
   text-align: center;
   grid-column: 1/5;
   padding: 20px;
+  border-bottom: 3px solid #000000;
 }
 
 .item-2 {
@@ -151,6 +154,7 @@ main {
   grid-row: 2/3;
   background-color: var(--txt-primary);
   padding: 20px;
+  border-right: 3px solid #000000;
 }
 
 .item-3 {
@@ -165,6 +169,7 @@ main {
   grid-column: 1/5;
   grid-row: 3/4;
   padding: 20px;
+  border-top: 3px solid #000000;
 }
 
 h2 {
