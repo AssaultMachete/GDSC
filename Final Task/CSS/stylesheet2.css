@@ -192,9 +192,11 @@ h2 {
     width: 100vw;
     height: 5rem;
   }
-
+h2{
+  font-size: 14px;
+}
   .logo {
-    display: none;
+    display: contents;
   }
 
   .navbar-nav {

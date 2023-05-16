@@ -1,0 +1,282 @@
+/* Custom Fonts */
+@font-face {
+  font-family: "Retro Computer";
+  src: url(../Fonts/retro_computer_personal_use.ttf);
+}
+@font-face {
+  font-family: "Flexi IBM";
+  src: url(../Fonts/Flexi_IBM_VGA_True.ttf);
+}
+@font-face {
+  font-family: "Opensans Bold";
+  src: url(../Fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Opensans SemiBold";
+  src: url(../Fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Opensans Regular";
+  src: url(../Fonts/OpenSans-Regular.ttf);
+}
+/* Navbar Cascading */
+:root {
+  font-size: 16px;
+  --bg-primary: #5cdb95;
+  --bg-secondary: #05213d;
+  --txt-primary: #edf5e1;
+  --txt-secondary: #808080;
+  --transition-speed: 600ms;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bg-primary);
+}
+
+main {
+  margin-left: 5rem;
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--bg-secondary);
+  transition: width 600ms ease;
+  overflow: hidden;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-item:last-child {
+  margin-top: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  color: var(--txt-primary);
+  text-decoration: none;
+  filter: grayscale(0%) opacity(1);
+  transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+  filter: grayscale(100%) opacity(0.7);
+  background: var(--bg-secondary);
+  color: var(--txt-secondary);
+}
+
+.link-text {
+  display: none;
+  margin-left: 1rem;
+}
+
+.nav-link svg {
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--txt-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.2rem;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+
+.logo svg {
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.logo-text {
+  display: inline;
+  position: absolute;
+  left: -999px;
+  transition: var(--transition-speed);
+}
+
+.navbar:hover .logo svg {
+  transform: rotate(-180deg);
+}
+/* Main Content of the page */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../image/bc.jpeg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  color: black;
+  background-color: #eeeeee75;
+  margin: 0;
+  padding: 0;
+  font-family: "Opensans Regular";
+}
+h1 {
+  font-family: "Opensans Bold";
+  font-weight: 700;
+}
+.title {
+  border-radius: 20px;
+  width: 30%;
+  margin: 100px auto 150px ;
+  text-align: center;
+}
+.Problems {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  /* align-content:space-between; */
+}
+.problem1,
+.problem2,
+.problem3,
+.problem4,
+.problem5,
+.problem6,
+.problem7,
+.problem8,
+.problem9 {
+  background-color: var(--bg-secondary);
+  color: #ffffffcd;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+.problem1:hover,
+.problem2:hover,
+.problem3:hover,
+.problem4:hover,
+.problem5:hover,
+.problem6:hover,
+.problem7:hover,
+.problem8:hover,
+.problem9:hover {
+  transform: rotate(5deg);
+  transition: 0.3s;
+  transition-duration: 1s;
+}
+
+.Problems img {
+  width: 350px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.paragraph p {
+  padding: 0 20px;
+  font-size: 13px;
+}
+.problem2 p,
+.problem3 p,
+.problem9 p {
+  width: 85%;
+  margin: 15px auto;
+}
+
+.link {
+  width: 40%;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: auto;
+  background-color: var(--bg-primary);
+}
+.link:hover {
+ 
+  background-color: #9deec2;
+}
+
+.Problems a {
+  /* background-color: #eee; */
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  width: 100%;
+  margin: 15px auto 0;
+}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .logo {
+    display: contents;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .title {
+    width: 350px;
+    margin: 50px auto;
+  }
+  .problem9 {
+    margin-bottom: 100px;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 20rem;
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
+
+  .navbar:hover .logo-text {
+    left: 0px;
+  }
+}

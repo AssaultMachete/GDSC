@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="yousef mohamed">
+    <link rel="stylesheet" href="style/Environmental pollution.css">
+    <title>greenhouse effect</title>
+</head>
+<body>
+    <div class="contener">
+        <h1>greenhouse effect</h1>
+        <div class="Solution">
+            <div class="head"> 
+                <p>
+                </p>
+            </div>
+            <div class="solve">
+                <div><img src="icon/solar-panels.png" alt="error"></div>
+                <p class="paragraph">
+                </p>
+            </div>
+            <div class="solve">
+                <div><img src="icon/wind-farm.png" alt="error"></div>
+                <p class="paragraph">   
+                </p>
+            </div>
+            <div class="solve">
+                <div><img src="icon/power.png" alt="error"></div>
+                <p class="paragraph">
+                </p>
+            </div>
+            <div class="solve">
+                <div><img src="icon/thermal.png" alt="error"></div>
+                <p class="paragraph">
+                </p>
+            </div>
+            <div class="solve">
+                <div><img src="icon/co2.png" alt="error"></div>
+                <p class="paragraph">
+                </p>
+            </div>
+            <div class="footer">
+                <p>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
